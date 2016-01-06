@@ -1,25 +1,46 @@
-.column1 {
-  width: 20%;
-  margin: 5px;
-  float: left;
+body {
+  margin: 0;
+  padding: 0;
 }
-
+.column1 {
+  color: yellow;
+  width: 20%;
+  float: left;
+  padding: 5px;
+  margin: 2px;
+  background-color: blue;
+}
 
 .column2 {
+  color: blue;
   width: 20%;
-  margin: 5px;
   float: left;
+  padding: 5px;
+  margin: 2px;
+  background-color: red;
 }
 
-
 .column3 {
+  color: red;
   width: 20%;
-  margin: 5px;
   float: left;
+  padding: 5px;
+  margin: 2px;
+  background-color: yellow;
 }
 
 .column4 {
+  color: red;
   width: 20%;
-  margin: 5px;
   float: left;
+  padding: 5px;
+  margin: 2px;
+  background-color: green;
+}
+
+img {
+  width: 60%;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
