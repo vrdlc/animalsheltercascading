@@ -1,14 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  background-color:  #ccccb3;
 }
 .column1 {
-  color: yellow;
+  color: #ffffff;
   width: 20%;
   float: left;
   padding: 5px;
   margin: 2px;
-  background-color: blue;
+  background-color: #66ccff;
+  height: 400px;
 }
 
 .column2 {
@@ -17,25 +19,28 @@ body {
   float: left;
   padding: 5px;
   margin: 2px;
-  background-color: red;
+  background-color:  #ffcc66;
+  height: 400px;
 }
 
 .column3 {
-  color: red;
+  color:  #003366;
   width: 20%;
   float: left;
   padding: 5px;
   margin: 2px;
   background-color: yellow;
+  height: 400px;
 }
 
 .column4 {
-  color: red;
+  color:  #cc3300;
   width: 20%;
   float: left;
   padding: 5px;
   margin: 2px;
-  background-color: green;
+  background-color: #336600;
+  height: 400px;
 }
 
 img {
@@ -60,3 +65,36 @@ img {
 .column4 p span {
   font-style: italic;
 }
+
+/* ===============================
+  Media Queries
+  ===============================*/
+
+
+
+/*Tablet to Phone*/
+
+@media only screen and (max-width: 479px) {
+  .column1,
+  .column2,
+  .column3,
+  .column4 {
+    float: none;
+    width: 80%;
+    }
+    img {
+      max-height: 90%;
+      padding-bottom: 0px;
+    }
+  }
+
+  /*Desktop to Tablet*/
+
+  @media only screen and (max-width: 768px) and (min-width: 480px) {
+    .column1,
+    .column2,
+    .column3,
+    .column4 {
+      width: 45%;
+    }
+  }
